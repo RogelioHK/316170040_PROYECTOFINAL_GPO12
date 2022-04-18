@@ -31,7 +31,7 @@ void DoMovement();
 
 
 // Camera
-Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
+Camera camera(glm::vec3(10.0f, 3.0f, 20.0f));
 bool keys[1024];
 GLfloat lastX = 400, lastY = 300;
 bool firstMouse = true;
@@ -143,6 +143,9 @@ int main()
 
     // Load textures
     Model bajo((char*)"Models/bajoMarceline/bajoMarceline.obj");
+    Model amp((char*)"Models/ampMarceline/ampMarceline.obj");
+    Model radio((char*)"Models/radioMarceline/radioMarceline.obj");
+    Model sofa((char*)"Models/sofaMarceline/sofaMarceline.obj");
 
     GLuint texture;
     glGenTextures(1, &texture);
@@ -178,10 +181,31 @@ int main()
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "view"), 1, GL_FALSE, glm::value_ptr(view));
 
         // Draw the loaded model
+        //Sofa
         glm::mat4 model(1);
-        model = glm::rotate(model, glm::radians(rot), glm::vec3(0.f, 1.f, 0.f));
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        sofa.Draw(shader);
+        
+        //Bajo
+        model = glm::mat4(1);
+        model = glm::translate(model, glm::vec3(0.f, 0.f, 10.f));
+        model = glm::scale(model, glm::vec3(2.f, 2.f, 2.f));
+        model = glm::rotate(model, glm::radians(180.f), glm::vec3(0.f, 1.f, 0.f));
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         bajo.Draw(shader);
+
+        //Amplificador
+        model = glm::mat4(1);
+        model = glm::translate(model, glm::vec3(3.f, 0.f, 10.f));
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        amp.Draw(shader);
+
+        //Radio
+        model = glm::mat4(1);
+        model = glm::translate(model, glm::vec3(8.f, 0.f, 10.f));
+        model = glm::rotate(model, glm::radians(30.f), glm::vec3(0.f, 1.f, 0.f));
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        radio.Draw(shader);
         glBindVertexArray(0);
 
         glActiveTexture(GL_TEXTURE0);

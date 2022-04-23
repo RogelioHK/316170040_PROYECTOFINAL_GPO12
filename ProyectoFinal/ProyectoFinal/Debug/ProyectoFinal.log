@@ -1,17 +1,131 @@
 ﻿  ProyectoFinal.cpp
-C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(165,30): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(153,38): warning C4101: 'nrChannels': variable local sin referencia
-C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(153,9): warning C4101: 'textureWidth': variable local sin referencia
-C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(155,20): warning C4101: 'image': variable local sin referencia
-C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(153,23): warning C4101: 'textureHeight': variable local sin referencia
-C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(290,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(291,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(295,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(296,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(298,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(299,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
-soil2-debug.lib(etc1_utils.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(etc1_utils.obj)' o en 'C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(196,24): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(231,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(232,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(233,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(246,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(247,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(248,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(261,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(262,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(263,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(276,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(277,50): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(278,23): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(456,26): warning C4305: '-=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(458,26): warning C4305: '-=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(460,26): warning C4305: '+=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(462,26): warning C4305: '+=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(464,26): warning C4305: '+=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(466,26): warning C4305: '-=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(470,27): warning C4305: '-=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(472,27): warning C4305: '-=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(474,27): warning C4305: '+=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(476,27): warning C4305: '+=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(478,27): warning C4305: '+=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(480,27): warning C4305: '-=': truncamiento de 'double' a 'T'
+          with
+          [
+              T=float
+          ]
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(527,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(528,11): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(532,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(533,18): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(535,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\ProyectoFinal\ProyectoFinal.cpp(536,10): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
 soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_DXT.obj)' o en 'C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
 soil2-debug.lib(image_helper.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_helper.obj)' o en 'C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
 soil2-debug.lib(SOIL2.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(SOIL2.obj)' o en 'C:\Users\Roghe\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\Facultad de ingeniería\Semestre 8\Lab computación gráfica\Proyecto\316170040_PROYECTOFINAL_GPO12\ProyectoFinal\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración

@@ -21,6 +21,14 @@
   <ItemGroup>
     <ClCompile Include="ProyectoFinal.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="Texture.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

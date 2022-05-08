@@ -54,6 +54,9 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd cuerda.png
 Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks CuerdasSpecular.png
+Ns 18.00
 newmtl bajoMarceline_lambert4SG1
 illum 4
 Kd 0.00 0.00 0.00
@@ -68,6 +71,9 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd malla.png
 Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks BocinaSpecular.png
+Ns 18.00
 newmtl initialShadingGroup
 illum 4
 Kd 0.50 0.50 0.50
@@ -232,6 +238,13 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd madera.png
 Ni 1.00
+newmtl lambert31SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd negro.png
+Ni 1.00
 newmtl pasted__phong6SG
 illum 4
 Kd 0.00 0.00 0.00
@@ -340,6 +353,44 @@ map_Kd aroCanasta.png
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 18.00
+newmtl phong11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd baseLampara.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks baseLamparaSpecular.png
+Ns 18.00
+newmtl phong12SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks metalSpecular.png
+Ns 18.00
+newmtl phong13SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd lampara.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd cristalFrente.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks cristalSpecular.png
+Ns 18.00
 newmtl radioMarceline_lambert2SG
 illum 4
 Kd 0.00 0.00 0.00
@@ -410,24 +461,45 @@ map_Kd perillas.png
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 18.00
-newmtl sofaMarceline_lambert7SG
+newmtl sofaMarceline1_lambert7SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd patas.png
+map_Kd madera.png
 Ni 1.00
-newmtl sofaMarceline_lambert8SG2
+newmtl sofaMarceline1_lambert10SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd base.png
+map_Kd boton.png
 Ni 1.00
-newmtl sofaMarceline_lambert9SG2
+newmtl sofaMarceline1_lambert11SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd rojo.png
+map_Kd tela.png
+Ni 1.00
+newmtl sofaMarceline_lambert7SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd madera.png
+Ni 1.00
+newmtl sofaMarceline_lambert10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd boton.png
+Ni 1.00
+newmtl sofaMarceline_lambert11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd tela.png
 Ni 1.00

@@ -266,7 +266,7 @@ int main()
 
 		// Directional light
 		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.direction"), -0.2f, -1.0f, -0.3f);
-		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.ambient"), 0.5f, 0.5f, 0.5f);
+		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.ambient"), 0.4f, 0.4f, 0.4f);
 		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.diffuse"), 0.1f, 0.1f, 0.1f);
 		glUniform3f(glGetUniformLocation(lightingShader.Program, "dirLight.specular"), 1.f, 1.f, 1.f);
 
@@ -500,27 +500,27 @@ void DoMovement()
 	// Camera controls
 	if (keys[GLFW_KEY_W])
 	{
-		camera.ProcessKeyboard(FORWARD, deltaTime);
+		camera.ProcessKeyboard(FORWARD, deltaTime*2);
 
 	}
 
 	if (keys[GLFW_KEY_S] || keys[GLFW_KEY_DOWN])
 	{
-		camera.ProcessKeyboard(BACKWARD, deltaTime);
+		camera.ProcessKeyboard(BACKWARD, deltaTime*2);
 
 
 	}
 
 	if (keys[GLFW_KEY_A] || keys[GLFW_KEY_LEFT])
 	{
-		camera.ProcessKeyboard(LEFT, deltaTime);
+		camera.ProcessKeyboard(LEFT, deltaTime*2);
 
 
 	}
 
 	if (keys[GLFW_KEY_D] || keys[GLFW_KEY_RIGHT])
 	{
-		camera.ProcessKeyboard(RIGHT, deltaTime);
+		camera.ProcessKeyboard(RIGHT, deltaTime*2);
 	}
 
 	//Abre y cierra la puerta
@@ -533,11 +533,11 @@ void DoMovement()
 	
 	if (activePF) {
 		if (dirPF)
-			rotPF += .5f;
+			rotPF += 1.f;
 	}
 	else {
 		if(!dirPF)
-		rotPF -= .5f;
+		rotPF -= 1.f;
 	}
 
 	//Enciende // apaga la radio
@@ -563,19 +563,15 @@ void DoMovement()
 			rotRD += 5.f;
 		else
 			rotRD -= 2.f;
-	
 	}
 	else {
 		tiempo = 0.f;
-	
-	
 	}
 }
 
 void animacion(){
 	//Movimiento del bajo
-	if (circuito)
-	{
+	if (circuito){
 		if (recorrido1){
 			rotKitZ += 0.08+(rotKitZ/10);
 			if (rotKitZ > 13.6){
@@ -663,34 +659,28 @@ void animacion(){
 // Is called whenever a key is pressed/released via GLFW
 void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mode)
 {
-	if (GLFW_KEY_ESCAPE == key && GLFW_PRESS == action)
-	{
+	if (GLFW_KEY_ESCAPE == key && GLFW_PRESS == action){
 		glfwSetWindowShouldClose(window, GL_TRUE);
 	}
 
-	if (key >= 0 && key < 1024)
-	{
-		if (action == GLFW_PRESS)
-		{
+	if (key >= 0 && key < 1024){
+		if (action == GLFW_PRESS){
 			keys[key] = true;
 		}
-		else if (action == GLFW_RELEASE)
-		{
+		else if (action == GLFW_RELEASE){
 			keys[key] = false;
 		}
 	}
 
 	if (keys[GLFW_KEY_L]){
 		activeL = !activeL;
-		if (activeL)
-		{
+		if (activeL){
 			lampOn.x = 1.0f;
 			lampOn.y = 1.0f;
 			lampOn.z = 0.717647f;
 			Light1 = glm::vec3(1.0f, 1.0f, .0f);
 		}
-		else
-		{
+		else{
 			lampOn = glm::vec3(0.0f);
 			Light1 = glm::vec3(0);//Cuado es solo un valor en los 3 vectores pueden dejar solo una componente
 		}
@@ -709,10 +699,8 @@ void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mode
 	}
 }
 
-void MouseCallback(GLFWwindow* window, double xPos, double yPos)
-{
-	if (firstMouse)
-	{
+void MouseCallback(GLFWwindow* window, double xPos, double yPos){
+	if (firstMouse){
 		lastX = xPos;
 		lastY = yPos;
 		firstMouse = false;

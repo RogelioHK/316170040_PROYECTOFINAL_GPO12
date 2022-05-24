@@ -48,7 +48,7 @@ glm::vec3 lightPos(.0f, .0f, 0.0f);
 //Lámpara//
 bool activeL = false; //Booleano que funciona como switch para la animación de la lámpara.
 glm::vec3 lampOn;	  //Es un vec3 con los colores que produce la luz. Es la consecuencia del bool anterior.
-glm::vec3 pointLightPositions(0.0f, 8.2f, 0.0f); // Posición de la pointlight (en la lámpara)
+glm::vec3 pointLightPositions(0.0f, 8.2f, -12.0f); // Posición de la pointlight (en la lámpara)
 glm::vec3 Light1 = glm::vec3(0); //Luz de la pointlight
 
 //Puerta del frente
@@ -207,7 +207,10 @@ int main() {
 	Model RadioPD((char*)"Models/radioMarceline/perillaD.obj");
 	Model Sofa3((char*)"Models/sofaMarceline/sofaMarceline.obj");
 	Model Sofa1((char*)"Models/sofaMarceline1/sofaMarceline1.obj");
-
+	Model Mesa((char*)"Models/mesaMarceline/mesaMarceline.obj");
+	Model TablaMesa((char*)"Models/tablaMarceline/tablaMarceline.obj");
+	Model Refrigerador((char*)"Models/refriMarceline/refriMarceline.obj");
+	Model Estufa((char*)"Models/estufaMarceline/estufaMarceline.obj");
 
 	//Configuración del VAO y VBO
 	GLuint VBO, VAO;
@@ -361,6 +364,12 @@ int main() {
 		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0);
 		LamparaMetal.Draw(lightingShader);
 
+		model = glm::mat4(1);
+		model = translate(model, glm::vec3(.0f, .0f, -12.f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0);
+		LamparaMetal.Draw(lightingShader);
+
 		//RADIO
 		model = glm::mat4(1);
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
@@ -396,6 +405,26 @@ int main() {
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0);
 		Sofa3.Draw(lightingShader);
+
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0);
+		Mesa.Draw(lightingShader);
+
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0);
+		TablaMesa.Draw(lightingShader);
+
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0);
+		Estufa.Draw(lightingShader);
+
+		model = glm::mat4(1);
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 0);
+		Refrigerador.Draw(lightingShader);
 
 		//OBJETOS TRANSPARENTES
 
@@ -434,6 +463,14 @@ int main() {
 
 		//Parte lumínica de la lámpara (cristal)
 		model = glm::mat4(1);
+		model = translate(model, glm::vec3(.0f, .0f, -12.f));
+		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 1);
+		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlfa"), 1.0, 1.0, 1.0, 0.99);
+		Lampara.Draw(lightingShader);
+
+		model = glm::mat4(1);
+		
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glUniform1i(glGetUniformLocation(lightingShader.Program, "activaTransparencia"), 1);
 		glUniform4f(glGetUniformLocation(lightingShader.Program, "colorAlfa"), 1.0, 1.0, 1.0, 0.99);
